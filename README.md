@@ -22,11 +22,6 @@ yarn
 yarn dev
 ```
 
-- To View swagger install the swagger viewer extension
-```
-shift + alt + p to bring swagger menu
-```
-
 for husky not set as executable run this command
 
 
