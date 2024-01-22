@@ -9,12 +9,14 @@ A functional, aesthetically pleasing website design template for a event/festiva
 - Conform to the PascalCase naming convention for classes and interfaces.
 - Utilize comments to elucidate the logic implemented in functions and classes.
 - Leverage components to enhance the readability and maintainability of the code.
+- use yarn for installing dependencies
 
 
 
 
 ## 2. to run the project
 
+- fork the project
 - clone the project
 
 ```
