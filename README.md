@@ -1,5 +1,5 @@
 # Event-Website
-
+A functional, aesthetically pleasing website design template for a event/festival
 
 ## 1. Rules
 
