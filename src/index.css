@@ -5,3 +5,38 @@
 * {
   box-sizing: border-box;
 }
+
+body{
+  background-color: #000000;
+  width: 100vw;
+}
+
+.nav-option{
+  @apply text-white font-medium text-xl font-chakraPetch mr-2 md:mr-8 ml-2 mb-3 text-left md:text-2xl;
+}
+
+
+@font-face {
+  font-family: 'Airnt Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Airnt Regular'), url('Airnt-qZey2.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Airnt Quantum';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Airnt Quantum'), url('AirntQuantum-JRMra.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Airnt Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Airnt Bold'), url('AirntBold-VGo0z.woff') format('woff');
+  }
+
+
