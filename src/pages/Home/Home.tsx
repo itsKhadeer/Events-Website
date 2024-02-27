@@ -11,14 +11,14 @@ const Home: React.FC = () => {
             Pragyan's Inter-collegiate
           </p>
           <div className="w-full text-center relative top-12 ">
-            <p className="font-airnt abc text-4xl md:text-7xl text-cyan z-10 relative top-18 md:top-32">
+            <p className="font-airnt abc text-4xl md:text-7xl text-cyan z-10 relative top-18 md:top-34">
               Technical Exhibition
             </p>
             <p className="font-airnt abc text-4xl md:text-7xl text-outline">
               Technical Exhibition
             </p>
           </div>
-          <p className=" font-chakraPetch text-white text-2xl md:text-4xl relative top-20 md:top-12">
+          <p className=" font-chakraPetch text-white text-2xl md:text-4xl relative top-18 md:top-12">
             and
           </p>
           <div className="relative -bottom-16 md:bottom-0">

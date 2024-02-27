@@ -1,0 +1,9 @@
+[
+    {"name" : "itsKhadeer", "position" : "The Creator", "image" : "../../src/assets/khadeer.jpg"},
+    {"name" : "bosehugheByte", "position" : "The Coordinator", "image" : "../../src/assets/manage.jpg"},
+    {"name" : "PixelHermit", "position" :"The Developer",  "image" : "../../src/assets/dev1.png"},
+    {"name" : "Karock", "position" : "The Sidekick" ,"image" : "../../src/assets/dev2.png"},
+    {"name" : "lorem", "position" : "lorem ipsum" },
+    {"name" : "lorem", "position" : "lorem ipsum"},
+    {"name" : "lorem", "position" : "lorem ipsum" }
+]

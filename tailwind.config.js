@@ -22,7 +22,11 @@ export default {
         68 : '17.5rem',
         22 : '5.5rem',
         18 : '4.5rem',
-        13 : '3.25rem'
+        13 : '3.25rem',
+        108 : '27rem',
+        58 : '14.75rem',
+        100 : '25.25rem',
+        34 : '8.5rem'
       }
     },
     backgroundImage:{
