@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
   return (
     <div className="fixed -right-1.5 z-20 h-full">
       <button
-        className={`absolute text-white w-16 right-12 md:right-36 top-5 z-10 `}
+        className={`absolute text-white w-16 right-12 lg:right-24 top-5 z-10 `}
         onClick={() => {
           setActive(!active);
           console.log(active);
@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
         />
       </button>
       {active && (
-        <nav className=" float-right border-l-2 border-white px-4 md:px-8 pt-24 w-2/5 h-screen bg-black md:w-1/6">
+        <nav className=" float-right border-l-2 border-white px-4 md:px-6 pt-24 w-2/5 h-screen bg-black md:w-1/6 relative md:left-6">
           <div>
             {navOptions.map((option) => {
               return (
@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
                 >
                   <img
                     src={navSprite}
-                    className={`h-6 relative top-7 right-9 md:right-13 ${
+                    className={`h-6 relative top-7 right-9 md:right-11 ${
                       currentPage == option ? "visible -mt-6" : "hidden"
                     }`}
                   />

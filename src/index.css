@@ -13,9 +13,9 @@ body{
 }
 
 .nav-option{
-  @apply text-white font-medium text-xl font-chakraPetch mr-3 md:mr-8 ml-2 mb-3 text-left md:text-2xl;
+  @apply text-white font-medium text-lg font-chakraPetch mr-3 md:mr-8 ml-2 mb-3 text-left md:text-xl;
 }
-
+  
 
 @font-face {
   font-family: 'Airnt Regular';
