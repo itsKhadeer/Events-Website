@@ -1,23 +1,38 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{html,jsx,tsx}"],
   theme: {
-    colors: {
-        pink: '#FF4271',
-        orange: '#ff7849',
-        green: '#13ce66',
-        purple: '#3F1577',
-        yellow: '#F4D258',
-        'gray-dark': '#273444',
-        'gray-light': '#d3dce6',
+    colors : {
+      white : '#ffffff',
+      black : '#000000',
+      blue : '#639FE8',
+      cyan : '#63FBDB',
+      green : '#00B36B',
+      grey : 'cdcdcd'
     },
     extend: {
-        fontFamily: {
-            Vermin: ['Vermin'],
-            Montserrat: ['Montserrat'],
-        },
+      fontFamily: {
+        montserrat : ['"Montserrat"', "sans-serif"],
+        chakraPetch : ['"Chakra Petch"', "sans-serif"],
+        airnt : ['"Airnt"', "mono"],
+        nunito : ["Nunito", "sans-serif"]
+      },
+      spacing:{
+        30 : '7.5rem',
+        68 : '17.5rem',
+        22 : '5.5rem',
+        18 : '4.5rem',
+        13 : '3.25rem',
+        108 : '27rem',
+        58 : '14.75rem',
+        100 : '25.25rem',
+        34 : '8.5rem'
+      }
     },
-},
+    backgroundImage:{
+      navButton : "url('/src/assets/navbar-button.svg')"
+    }
+  },
   plugins: [],
 }
 
